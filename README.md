@@ -4,7 +4,7 @@
 
 ```bash
 # clone this repository.
-$ git clone https://github.com/kazuhironakamur/nuxt-firebase-authentication-template manuable
+$ git clone https://github.com/kazuhironakamur/nuxt-firebase-authentication-template <your app name>
 
 # create .env file. this file need firebase api keys.
 #.env file
