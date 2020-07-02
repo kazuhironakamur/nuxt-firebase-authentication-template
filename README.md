@@ -3,6 +3,21 @@
 ## Build Setup
 
 ```bash
+# clone this repository.
+$ git clone https://github.com/kazuhironakamur/nuxt-firebase-authentication-template manuable
+
+# create .env file. this file need firebase api keys.
+#.env file
+$ vi .env
+FIREBASE_apiKey='abedcfghijklmnopqrstuvwxyz'
+FIREBASE_authDomain='abedcfghijklmnopqrstuvwxyz'
+FIREBASE_databaseURL='abedcfghijklmnopqrstuvwxyz'
+FIREBASE_projectId='abedcfghijklmnopqrstuvwxyz'
+FIREBASE_storageBucket='abedcfghijklmnopqrstuvwxyz'
+FIREBASE_messagingSenderId='abedcfghijklmnopqrstuvwxyz'
+FIREBASE_appId='abedcfghijklmnopqrstuvwxyz'
+FIREBASE_measurementId='abedcfghijklmnopqrstuvwxyz'
+
 # install dependencies
 $ npm install
 
@@ -29,21 +44,9 @@ $ npm install --save firebase
 
 ```bash
 $ firebase init
-```
-
-create `.env` file to root directory.
-settings firebase api keys.
-
-```bash
-#.env file
-FIREBASE_apiKey='abedcfghijklmnopqrstuvwxyz'
-FIREBASE_authDomain='abedcfghijklmnopqrstuvwxyz'
-FIREBASE_databaseURL='abedcfghijklmnopqrstuvwxyz'
-FIREBASE_projectId='abedcfghijklmnopqrstuvwxyz'
-FIREBASE_storageBucket='abedcfghijklmnopqrstuvwxyz'
-FIREBASE_messagingSenderId='abedcfghijklmnopqrstuvwxyz'
-FIREBASE_appId='abedcfghijklmnopqrstuvwxyz'
-FIREBASE_measurementId='abedcfghijklmnopqrstuvwxyz'
+# checked Hosting
+# changed public directory. public -> dist
+? What do you want to use as your public directory? (public) dist
 ```
 
 # deploy your firebase
